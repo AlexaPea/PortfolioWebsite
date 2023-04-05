@@ -1,0 +1,2694 @@
+/**
+ * VictorThemes Styling
+*/
+@media screen and (min-width:1920px) {
+  /* Segva Fixed Left Single Page CSS */
+  .segva-project-detail.project-full-wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width:1799px) {
+  /* Home V3 */
+  .projects-style-three .project-info {
+    writing-mode: unset;
+    transform: rotate(0);
+    left: 0;
+    right: auto;
+    width: auto;
+    background: transparent;
+    padding: 0;
+    opacity: 1;
+    text-align: left;
+    padding-top: 0;
+    position: relative;
+    height: auto;
+  }
+  .projects-style-three .project-info-wrap span.segva-separator {
+    transform: rotate(0);
+  }
+  .projects-style-three .project-info h5 {
+    padding-top: 2px;
+  }
+  .projects-style-three .project-info h4 {
+    padding-bottom: 2px;
+  }
+  .projects-style-three .project-item {
+    margin-bottom: 15px;
+  }
+}
+
+
+@media screen and (max-width:1699px) {
+  /* Segva Normal CSS */
+  .has-sidebarnav .segva-experience .row,
+  .has-sidebarnav .segva-pricing .row,
+  .segva-contact-wrap .row {
+    margin: 0 -15px;
+  }
+  .has-sidebarnav .segva-experience [class*="col-"],
+  .has-sidebarnav .segva-pricing [class*="col-"],
+  .segva-contact-wrap [class*="col-"] {
+    padding: 0 15px;
+  }
+  /* Segva About Me Page CSS */
+  .my-info-wrap {
+    padding: 70px;
+  }
+  .slider-style-one .slider-featured-image img {
+    max-width: 800px;
+  }
+  .slider-style-two .segva-slider-caption h2 {
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .slider-style-two .swiper-container {
+    height: auto;
+  }
+  
+}
+
+@media only screen and (max-width: 1550px) and (min-width: 1341px) {
+  /* Segva Normal CSS */
+  .has-sidebarnav .container {
+    width: 970px;
+  }
+  .has-sidebarnav .project-full-wrap .project-detail-wrap {
+    max-width: 370px;
+  }
+  .has-sidebarnav .services-info-wrap {
+    width: auto;
+    padding: 0 30px;
+  }
+  .has-sidebarnav .dl-horizontal dt {
+    float: none;
+    width: auto;
+    white-space: normal;
+    overflow: visible;
+  }
+  .has-sidebarnav .dl-horizontal dt:after {
+    display: none;
+  }
+  .has-sidebarnav .dl-horizontal dd {
+    clear: both;
+    padding: 5px 0 0;
+  }
+}
+
+@media screen and (max-width:1499px) {
+	/* Segva Normal CSS */
+	.close-btn {
+		top: 50px;
+		right: 50px;
+	}
+	.segva-spacer-wrap {
+		padding: 0;
+	}
+	/* Segva Home Pinterest Gallery Page CSS */
+	.segva-full-gallery {
+		padding: 30px;
+	}
+	.segva-masonry[data-space="40"] {
+		margin: 0 -15px;
+	}
+	.segva-masonry[data-space="40"] .masonry-item {
+		padding: 0 15px 30px;
+	}
+  span.name-first-letter {
+    font-size: 350px;
+    line-height: 280px;
+    top: auto;
+    bottom: auto;
+  }
+  .slider-style-three .slider-featured-image {
+    position: relative;
+  }
+  .slider-style-three .swiper-slide:after {
+    z-index: 1;
+  }
+  .slider-style-three .segva-slider-bottom-wrap {
+    width: calc(100% - 200px);
+    margin: 0;
+    padding: 50px 15px;
+  }
+  .slider-style-three .segva-slider-bottom-wrap .segva-slider-btm-cnt {
+    max-width: 100%;
+    text-align: left;
+  }
+  .segva-swiper-nav {
+    right: 0;
+  }
+}
+
+@media screen and (max-width:1420px) {
+  .segva-navigation > ul > li > a {
+    padding: 35px 12px 34px 12px;
+  }
+}
+@media screen and (max-width:1300px) and (min-width: 1199px) {
+  .segva-navigation > ul > li > a {
+    padding: 40px 8px 40px 8px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:1340px) {
+  .slider-style-one .slider-featured-image img {
+    max-width: 700px;
+  }
+  /* Segva Home Pinterest Gallery Page CSS */
+  .has-sidebarnav .segva-main-wrap {
+    margin-left: 0 !important;
+  }
+  .has-sidebarnav .segva-page-title .breadcrumb {
+    padding-left: 50px;
+    text-align: right;
+  }
+  .sidebarnav-open .segva-sidebar-nav {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .sidebarnav-open .segva-full-wrap {
+    -webkit-transform: translateX(280px);
+    -ms-transform: translateX(280px);
+    transform: translateX(280px);
+  }
+  .segva-full-wrap {
+    -webkit-transition: all ease 500ms;
+    -ms-transition: all ease 500ms;
+    transition: all ease 500ms;
+  }
+  .segva-full-wrap .toggle-link {
+    display: block;
+  }
+  .side-nav-menu-class .toggle-link.active .toggle-separator {
+    height: 0;
+  }
+  .side-nav-menu-class.sticky-footer .segva-footer {
+    left:0px;
+    width: 100% ;
+  }
+
+  /* Segva 404 Error Page CSS */
+  .error-wrap h2 {
+    font-size: 36px;
+  }
+  .error-wrap .segva-border-link {
+    padding-top: 0;
+  }
+  .error-title {
+    padding-bottom: 15px;
+  }
+  .error-sub-title {
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width:1269px) {
+  /* Segva Fixed Left Single Page CSS */
+  .project-full-wrap .project-detail-wrap {
+    max-width: 455px;
+  }
+  /* Segva Contact Us Page CSS */
+  .segva-contact-wrap .row,
+  .segva-experience .row {
+    margin: 0 -15px;
+  }
+  .segva-contact-wrap [class*="col-"],
+  .segva-experience [class*="col-"] {
+    padding: 0 15px;
+  }
+  .slider-style-one .slider-featured-image img {
+    max-width: 100%;
+  }
+  span.name-first-letter {
+    font-size: 350px;
+    line-height: 280px;
+    top: auto;
+    bottom: auto;
+  }
+  .segva-masonry[data-space="70"] .masonry-item {
+    padding: 20px;
+  }
+  .segva-contact-address {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1199px) {
+	/* Segva Normal CSS */
+  .swiper-container.swiper-slides.segva-swiper {
+    height: auto;
+    text-align: center;
+  }
+  .segva-slider-caption h2 {
+    display: inline-block;
+    width: auto;
+    display: inline-block;
+    width: auto;
+    font-size: 90px;
+    line-height: 90px;
+    letter-spacing: 8px;
+    position: relative;
+  }
+  .segva-slider-caption h2.slider-caption-title-two:after {
+    position: absolute;
+    bottom: 20px;
+    right: -30px;
+  }
+  .segva-slider-caption {
+    padding: 90px 0;
+  }
+  .slider-style-two .segva-slider-caption {
+    padding: 0;
+  }
+  .swiper-container {
+    height: 700px;
+  }
+	.header-wrap {
+		padding: 0 30px;
+	}
+	.segva-fixed-navigation {
+		height: 100%;
+		padding: 80px 0;
+		overflow-y: auto;
+	}
+  .left-sidebar .segva-primary,
+  .left-sidebar .segva-project-detail .segva-primary,
+  .left-sidebar.segva-mid-wrap.primary-spacer-two .segva-primary {
+    padding-left: 15px;
+  }
+  .left-sidebar .segva-project-detail.project-full-wrap .project-detail-wrap {
+    margin-right: 0;
+  }
+  .segva-primary,
+  .segva-project-detail .segva-primary,
+  .segva-mid-wrap.primary-spacer-two .segva-primary {
+    padding-right: 15px;
+  }
+  /* Home V2 slider */
+  .slider-style-two .segva-slider-caption h2 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+  /* Home V4 */
+  .slider-style-three .segva-slider-caption h2 {
+    font-size: 90px !important;
+    line-height: 100px !important;
+    margin-bottom: 0;
+  }
+  .slider-style-three .segva-slider-caption h2.slider-caption-title-two:after {
+    display: none;
+  }
+	/* Segva Home Parallax Page CSS */
+	.banner-caption,
+  .slider-style-two .banner-caption {
+		width: auto;
+	}
+  .slider-style-two .banner-caption {
+    text-align: left;
+  }
+  /* Segva About Us Page CSS */
+  .banner-style-two .banner-wrap h1 {
+    font-size: 55px;
+    line-height: 60px;
+    display: inline-block;
+  }
+  .segva-banner.banner-style-two p {
+    font-size: 30px;
+    line-height: 42px;
+    padding-top: 0;
+  }
+  .banner-style-two h1.banner-title.banner-title-two {
+    padding-bottom: 0;
+  }
+  /* Segva About Me Page CSS */
+  .segva-about-me {
+    height: auto !important;
+  }
+  .segva-about-me .segva-background {
+    float: none;
+    width: auto;
+    height: 800px;
+  }
+  .my-info {
+    float: none;
+    width: auto;
+    height: auto;
+  }
+  /* Segva Services Page CSS */
+  .segva-services [class*="col-"] {
+    float: none;
+    width: auto;
+  }
+  .services-left-wrap .services-info-wrap {
+    padding: 0 50px;
+  }
+  .services-info-wrap {
+    width: auto;
+    padding: 0 50px;
+  }
+  .segva-pricing .row {
+    margin: 0 -15px;
+  }
+  .segva-pricing [class*="col-"] {
+    padding: 0 15px;
+  }
+  .pricing-item {
+    margin-bottom: 30px;
+  }
+  /* Segva 404 Error Page CSS */
+  .segva-full-height {
+    height: 800px;
+  }
+  /* Segva Fixed Left Single Page CSS */
+  .project-full-wrap .segva-secondary {
+    padding-top: 50px;
+  }
+  .project-full-wrap .project-detail-wrap {
+    margin-left: 0;
+  }
+  /* Segva Blog Single Page CSS */
+  .segva-blog-detail .segva-controls-links .control-link img {
+    max-width: 70px;
+    margin-right: 15px;
+  }
+  .segva-blog-detail .segva-controls-links .control-link.next img {
+    margin-left: 15px;
+  }
+  .section-title-wrap {
+    width: 100% !important;
+  }
+  .segva-widget.widget_calendar table#wp-calendar td,
+  .segva-widget.widget_calendar table#wp-calendar th {
+    padding: 4px;
+  } 
+  .intro-item.count-left h3.intro-count-text,
+  .intro-item.count-right h3.intro-count-text {
+    float: none;
+  }
+  .intro-item .intro-right {
+    padding-left: 0;
+  }
+  .intro-item.count-right .intro-right {
+    padding-right: 0;
+  }
+
+  /*Mean Menu*/
+  .segva-header .segva-navigation {
+    display: none!important;
+  }
+  .segva-sidebar-toggle,
+  .segva-header-three .segva-full-wrap .segva-sidebar-toggle {
+    display: none;
+  }
+  .segva-center-header .segva-toggle {
+    display: none;
+  }
+  .segva-toggle.active,
+  .segva-header-right .segva-navigation {
+    display: none !important;
+  }
+  .header-segva-style-two .navi-toggle {
+    display: none;
+  }
+  .header-five-menu-toggle {
+    display: none;
+  }
+  .segva-header-three .segva-sidebar-nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    z-index: 3;
+    top: 0;
+  }
+  .segva-header-three .sidebar-nav-wrap {
+    padding: 13px 35px;
+  }
+  .segva-header-three .sidebar-nav-wrap .segva-brand {
+    text-align: left;
+    padding: 7px 0 20px;
+    float: left;
+  }
+  .segva-header-three .mean-container .mean-bar {
+    width: 95%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .segva-header-three .segva-sidebar-nav nav.segva-navigation {
+    display: none !important;
+  }
+  .has-sidebarnav .segva-main-wrap {
+    margin-left: 0 !important;
+  }
+  .sidebarnav-open .segva-sidebar-nav {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .sidebarnav-open .segva-full-wrap, 
+  .sidebarnav-open .segva-footer {
+    -webkit-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+  }
+  .segva-full-wrap .segva-sidebar-toggle {
+    display: block;
+  }
+  .has-sidebarnav .segva-footer {
+    width: 100%;
+    left: 0;
+  }
+  .segva-main-wrap.segva-header-three, 
+  .has-sidebarnav .segva-banner.slider-cnt-left .caption-wrap {
+    width: 100%;
+    margin-left: 0;
+  }
+  .segva-navigation-wrap {
+    display: none;
+  }
+  nav.sidebar-nav-wrap.sidebar-menu-two,
+  .sidebar-nav-wrap .segva-navigation {
+    display: none !important;
+  }
+  .header-links-wrap {
+    display: none;
+  }
+  .header-segva-style-three.header-segva-style-five .segva-header .logo-wraper {
+    padding-bottom: 0;
+  }
+  .header-segva-style-three.header-segva-style-five .menu-wraper {
+    display: none;
+  }
+  .segva-sidebar-nav .segva-social,  .segva-sidebar-nav  .segva-copyright {
+    display: none;
+  }
+  .segva-sidebar-nav .sidebar-nav-wrap.mean-container {
+    padding: 30px 40px 30px;
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  .segva-sidebar-nav {
+    position: relative;
+    overflow: unset;
+  }
+  .segva-sidebar-nav .mean-container a.meanmenu-reveal {
+    top: 40px;
+    right: 20px !important;
+  }
+  .segva-main-wrap.side-nav-menu-class .toggle-link{
+    display: none;
+  }
+  .segva-sidebar-nav {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+  .side-nav-menu-class .segva-sidebar-nav {
+    width: 100%;
+    height: auto;
+    display: inline;
+  }
+  .segva-blog-tags {
+    width:100%;
+  }
+  .segva-blog-share {
+    float: left;
+    text-align: left;
+    margin-top: 12px;
+    width: 100%;
+  }
+  .header-right-links {
+    margin-top: 30px;
+  }
+  .sidebar-nav-wrap .segva-brand {
+    float: left;
+    display: inline-block;
+    width: auto;
+    z-index: 5;
+  }
+  span.name-first-letter {
+    font-size: 200px;
+    line-height: 230px;
+  }
+  .segva-team-mates .mate-info h5 a, 
+  .segva-team-mates .mate-info h5 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .segva-testimonials .testimonial-item .segva-image {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width:1025px) {
+  .counter-item span.segva-separator {
+    display: none;
+  }
+}
+@media screen and (max-width:1007px) {
+  .footer-widget-area {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media screen and (max-width:991px) {
+	/* Segva Normal CSS */
+  .section-title-wrap h2 {
+    display: inline-block;
+    width: auto;
+  }
+  .section-title-wrap.hav-sep {
+    padding-bottom: 0;
+  }
+  .section-title-wrap h2 {
+    font-size: 35px !important;
+    line-height: 40px !important;
+    letter-spacing: 6px;
+  }
+  .section-title-wrap.hav-icon .section-title-two:after {
+    bottom: 0;
+  }
+  .section-content-wrap {
+    max-width: none !important;
+  }
+	.header-style-two .segva-header-right {
+		padding-top: 0;
+	}
+  .transparent-header .segva-header-right {
+    padding-top: 0;
+  }
+	.segva-header-right {
+		padding-top: 36px;
+	}
+  .default-header .segva-header-right {
+    padding-top: 0px;
+  }
+	.header-right-links {
+		padding-left: 0;
+		margin-left: 0;
+		border-left: none;
+	}
+	.toggle-link {
+		vertical-align: initial;
+	}
+	.search-wrap {
+		width: auto;
+		margin: 0 50px;
+	}
+	.section-title-wrap br {
+		display: none;
+	}
+	.client-item {
+		width: 33.33333333%;
+	}
+  .segva-masonry[data-items="3"] .masonry-item {
+    width: 50%;
+  }
+  .segva-secondary {
+    padding-top: 12%;
+  }
+  .single-post .segva-secondary {
+    padding-top: 7%;
+  }
+  .left-sidebar .segva-primary {
+    float: none;
+  }
+  .left-sidebar .project-full-wrap .segva-primary {
+    text-align: center;
+  }
+  .left-sidebar .segva-project-detail.project-full-wrap .project-detail-wrap {
+    float: none;
+    margin: 0 auto;
+  }
+  .segva-banner[class*="banner-style-"] {
+    height: 650px;
+  }
+  .footer-widget-area {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segva-author-info {
+    margin-top: 25px;
+  }
+  .segva-blog-detail .segva-controls-links {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .author-content {
+    padding-left: 25px;
+  }
+  /* Home V2 */
+  .slider-style-two .slider-featured-image {
+    width: 100%;
+  }
+  .slider-style-two .slider-infos {
+    width: 100%;
+  }
+  .slider-style-two .banner-caption {
+    text-align: center;
+    padding: 60px 0 80px;
+  }
+  .slider-style-two .segva-slider-caption p {
+    padding-bottom: 15px;
+  }
+  .slider-style-two .segva-slider-caption h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .segva-testimonials .testi-infos {
+    width: 100%;
+  }
+  .segva-testimonials .testimonial-item .segva-image {
+    width: 100%;
+  }
+  .segva-testimonials.testi-style-two .segva-icon {
+    float: left;
+    padding-top: 25px;
+    display: inline-block;
+    width: 100%;
+  }
+  .process-item .separator-image {
+    display: none;
+  }
+  .segva-testimonials .owl-drag .owl-prev:before, 
+  .segva-testimonials .owl-drag .owl-next:before {
+    top: auto;
+    bottom: 0;
+  }
+	/* Segva Home Classic Page CSS */
+	.caption-wrap {
+		width: auto;
+	}
+	.segva-projects .section-title {
+		float: none;
+    display: inline-block;
+	}
+	.segva-projects .section-title-wrap .masonry-filters {
+		float: none;
+		padding: 10px 0 0;
+		text-align: left;
+	}
+	.segva-projects .section-title-wrap .masonry-filters ul li {
+		padding: 0 31px 16px 0;
+	}
+  .mate-item {
+    width: 50%;
+  }
+  span.name-first-letter {
+    font-size: 450px;
+    line-height: 450px;
+  }
+	/* Segva Home Carousel Page CSS */
+	.horizontalslides .segva-slider-caption h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.horizontalslides .caption-wrap {
+		padding: 19px 30px 22px;
+	}
+	/* Segva Home Cascade Style Page CSS */
+	.segva-big-title-wrap {
+		width: auto;
+		padding-bottom: 50px;
+	}
+	.segva-big-title-wrap .big-title {
+		font-size: 48px;
+		line-height: 60px;
+	}
+	/* Segva Home Parallax Page CSS */
+	.banner-wrap {
+		padding: 25px 80px;
+	}
+  /* Segva Services Page CSS */
+  .segva-video.pop-video-style-two {
+    height: 500px!important;
+  }
+  .counter-item {
+    width: 100%;
+  }
+  .services-info-wrap {
+    float: none;
+    width: 750px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .services-left-wrap .services-info-wrap {
+    float: none;
+    padding: 0 15px;
+  }
+  .process-item:after {
+    display: none;
+  }
+  /* Segva Home Pinterest Gallery Page CSS */
+  .project-full-wrap .segva-primary {
+    text-align: center;
+  }
+  .project-full-wrap .segva-secondary {
+    padding-top: 100px;
+  }
+  .project-full-wrap .project-detail-wrap {
+    max-width: 750px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  /* Segva Blog Masonry Page CSS */
+  .blogs-wrap .segva-primary,
+  .blogs-wrap .segva-secondary {
+    width: auto;
+  }
+  .blogs-wrap .segva-primary {
+    width: 100%;
+    padding-right: 0;
+  }
+  /* Segva Contact Us Page CSS */
+  .get-in-touch {
+    padding-top: 50px;
+  }
+  .segva-header .segva-navigation {
+    display: none;
+  }
+  .segovia-toggle {
+    display: inline-block;
+  }
+  .segva-header-right .segva-navigation {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+    text-align: left;
+    overflow: auto;
+    z-index: 2;
+
+    -webkit-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 14px 1px rgba(0,0,0,0.1);
+  }
+  .segva-navigation  {
+    display: block;
+  }
+  .segva-navigation ul > li {
+    width: 100%;
+    margin-right: 0;
+  }
+  .segva-navigation ul > li > a {
+    padding: 16px 20px;
+  }
+  .segva-navigation  > li:hover > a,
+  .segva-navigation  > li.active > a {
+    color: #eeb313;
+  }
+  .segva-navigation  .dropdown-nav {
+    position: static;
+    min-width: 100%;
+    padding: 10px 0 0px;
+    background-color: #fff;
+  }
+  .segva-navigation  .dropdown-nav li ul {
+    color: #000;
+    padding-left: 15px;
+  }
+ .slicknav_menutxt {
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+  }
+  .identify-info {
+    padding: 45px 38px;
+  }
+  .blogs-wrap .segva-primary,
+  .blogs-wrap .segva-secondary {
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .segva-project-detail.project-full-wrap .project-detail-wrap {
+    padding-top: 0;
+  }
+  .segva-related-posts {
+    padding-top: 75px;
+  }
+  .comments-section {
+    padding-top: 30px;
+  }
+  .full-background-wrap {
+    height: auto;
+  }
+  .team-singl-wrap .col-md-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .col-md-12.bottom-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segva-footer .segva-widget {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .footer-widget-area {
+    border-bottom: none;
+  }
+  .segva-project-detail .segva-secondary {
+    padding-top: 5%;
+  }
+  .segva-testimonials.testi-style-two .owl-drag .owl-prev:before, 
+  .segva-testimonials.testi-style-two .owl-drag .owl-next:before {
+    left: 40%;
+  }
+  .segva-testimonials.testi-style-two .owl-drag .owl-next:before {
+    left: auto;
+    right: 40%;
+  }
+  /* Portfolio Single */
+  .contact-section {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .contact-section .segva-contact-item {
+    width: 100%;
+    border-right: none;
+  }
+  .swiper-container.swiper-slides.swiper-image-slide {
+    height: 500px !important;
+  }
+  .project-more-info-wrap {
+    position: relative;
+    min-height: auto;
+    height: auto;
+  }
+  .segva-item.contact-addrs-item p {
+    margin: 0 auto;
+    max-width: none;
+  }
+  .segva-contact-address .contact-item-wrap {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+  .contact-address-line {
+    display: none;
+  }
+  .segva-contact-address {
+    padding: 35px 0;
+  }
+  /* Shop Page */
+  .woocommerce ul.products li.product, 
+  .woocommerce-page ul.products li.product,
+  .woocommerce ul.products.columns-3 li.product, 
+  .woocommerce-page ul.products.columns-3 li.product {
+    width: 46%;
+  }
+  /* Product Single */
+  .woocommerce #content div.product div.images, 
+  .woocommerce div.product div.images, 
+  .woocommerce-page #content div.product div.images, 
+  .woocommerce-page div.product div.images {
+    width: 100%;
+  }
+  .woocommerce div.product div.images img {
+    width: auto;
+    margin: 0 auto;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs li {
+    width: 17%;
+  }
+  .woocommerce #content div.product div.summary, 
+  .woocommerce div.product div.summary, 
+  .woocommerce-page #content div.product div.summary, 
+  .woocommerce-page div.product div.summary {
+    width: 100%;
+  }
+  .segva-single-product-wrap {
+    padding: 55px 40px 20px;
+  }
+  .woocommerce div.product div.summary {
+    margin-bottom: 0;
+  }
+  .product_meta span.meta-item {
+    padding-bottom: 15px;
+  }
+  section.related.products h2,
+  section.up-sells.upsells.products h2 {
+    font-size: 34px;
+    line-height: 35px;
+  }
+  .woocommerce div.product .product_title,
+  .woocommerce div.product p.price, 
+  .woocommerce div.product span.price {
+    font-size: 34px;
+  }
+  .single-product .segva-mid-wrap.mid-spacer-two {
+    padding: 0 60px 60px;
+  }
+  /* Cart Page */
+  #add_payment_method table.cart img, 
+  .woocommerce-cart table.cart img, 
+  .woocommerce-checkout table.cart img {
+    width: 70px;
+  }
+  .woocommerce table.shop_table th,
+  .woocommerce table.shop_table td,
+  .woocommerce table.shop_table td.product-name {
+    font-size: 20px;
+  }
+  .woocommerce-page table.cart td.actions .coupon {
+    width: 100%;
+  }
+  .woocommerce-page table.cart td.actions button.button {
+    float: none;
+    width: 100%;
+  }
+  .woocommerce-page table.cart td.actions .coupon button.button {
+    margin: 12px 0;
+  }
+  .woocommerce-cart table.cart td.actions .coupon .input-text {
+    max-width: 100%;
+    width: 100%;
+  }
+  .woocommerce .cart-collaterals .cart_totals, 
+  .woocommerce-page .cart-collaterals .cart_totals {
+    width: 100%;
+  }
+  /* Checkout Page */
+  .woocommerce .col2-set .col-1, 
+  .woocommerce-page .col2-set .col-1, 
+  .woocommerce .col2-set .col-2, 
+  .woocommerce-page .col2-set .col-2 {
+    padding: 0;
+    max-width: 100%;
+  }
+  .woocommerce h3#order_review_heading {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .woocommerce-checkout h3 {
+    font-size: 32px;
+  }
+  .woocommerce form.checkout_coupon p.form-row.form-row-first,
+  .woocommerce form.checkout_coupon p.form-row.form-row-last {
+    width: 100%;
+  }
+  .woocommerce-form-coupon-toggle, 
+  .woocommerce-form-login-toggle {
+    padding: 0;
+  }
+
+}
+
+@media screen and (max-width:850px) {
+	/* Segva Normal CSS */
+	.project-info {
+		padding: 25px 30px;
+	}
+	.project-link {
+		bottom: 25px;
+		right: 25px;
+	}
+  /* Segva About Me Page CSS */
+  .segva-about-me .segva-background {
+    height: 600px;
+  }
+
+}
+@media screen and (max-width:768px) {
+  .projects-style-two .masonry-filters {
+    margin-top: 10px;
+    padding-bottom: 0;
+  }
+  .segva-clients {
+    padding-top: 25px;
+  }
+  .project-short-detail dl {
+    margin-bottom: 15px;
+  }
+  .segva-testimonials.testi-style-two .testimonial-item {
+    margin: 40px 0;
+  }
+  .woocommerce-page table.cart td.actions .coupon,
+  .woocommerce table.cart td.actions .coupon {
+    padding-bottom: 0;
+  }
+  .woocommerce-page table.cart td.actions .coupon .button {
+    width: 100%;
+  }
+  .woocommerce table.shop_table_responsive tr:nth-child(2n) td, 
+  .woocommerce-page table.shop_table_responsive tr.woocommerce-shipping-totals td {
+    background: transparent;
+  }
+  .woocommerce #payment #place_order, 
+  .woocommerce-page #payment #place_order {
+    margin-bottom: 0;
+  }
+  .woocommerce-account .woocommerce-MyAccount-navigation {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width:767px) {
+	/* Segva Normal CSS */
+	p {
+		padding-bottom: 10px;
+	}
+	h1,
+  .h1 {
+		font-size: 30px;
+	}
+	h2,
+  .h2 {
+		font-size: 26px;
+	}
+  h3,
+  .h3,
+  .comments-section .comment-area h3 {
+    font-size: 24px;
+  }
+  h4,
+  .h4,
+  .blog-detail-wrap h4 {
+    font-size: 22px;
+  }
+  h5,
+  .h5 {
+    font-size: 21px;
+  }
+  h6,
+  .h6 {
+    font-size: 19px;
+  }
+  blockquote {
+    padding: 10px 0 25px;
+  }
+  blockquote p {
+    padding-bottom: 10px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+  blockquote cite {
+    line-height: 1.42857;
+  }
+	.container {
+		padding: 0 25px;
+	}
+  .segva-testimonials > .container {
+    padding: 0;
+  }
+	.row {
+		margin: 0;
+	}
+	.col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-xs-1,
+  .col-xs-10,
+  .col-xs-11,
+  .col-xs-12,
+  .col-xs-2,
+  .col-xs-3,
+  .col-xs-4,
+  .col-xs-5,
+  .col-xs-6,
+  .col-xs-7,
+  .col-xs-8,
+  .col-xs-9 {
+		padding: 0;
+	}
+  .section-title-wrap.hav-icon .section-title-two:after {
+    display: none;
+  }
+  .swiper-container {
+    height: 400px;
+  }
+	.swiper-container:hover .swiper-button-prev,
+  .owl-drag .owl-prev:before,
+  .blog-item .owl-drag .owl-prev:before {
+    left: 25px;
+  }
+  .swiper-container:hover .swiper-button-next,
+  .owl-drag .owl-next:before,
+  .blog-item .owl-drag .owl-next:before {
+    right: 25px;
+  }
+  .swiper-image-slide .swiper-button-next,
+  .swiper-image-slide.swiper-container:hover .swiper-button-next {
+    right: 20px;
+  }
+  .swiper-image-slide .swiper-button-prev,
+  .swiper-image-slide.swiper-container:hover .swiper-button-prev {
+    left: 20px;
+  }
+  .owl-carousel .owl-dots {
+    padding-top: 25px;
+  }
+  .mfp-container {
+    padding: 0;
+  }
+  .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .mfp-close:active {
+    top: 0;
+  }
+  .mfp-close:before,
+  .mfp-close:after {
+    top: 9px;
+    left: 16px;
+  }
+  .mfp-arrow-left {
+    left: 15px;
+  }
+  .mfp-arrow-right {
+    right: 28px;
+  }
+  .dl-horizontal dt {
+    float: left;
+    width: 100px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .has-sidebarnav .segva-experience .row,
+  .has-sidebarnav .segva-pricing .row,
+  .segva-contact-wrap .row {
+    margin: 0;
+  }
+  .has-sidebarnav .segva-experience [class*="col-"],
+  .has-sidebarnav .segva-pricing [class*="col-"],
+  .segva-contact-wrap [class*="col-"] {
+    padding: 0;
+  }
+  .segva-responsive-table table {
+    white-space: nowrap;
+  }
+  .segva-masonry {
+  	margin: 0;
+  	text-align: center;
+  }
+  .segva-masonry[data-space] {
+    margin: 0;
+  }
+  .segva-masonry[data-space] .masonry-item {
+    padding: 0 0 30px;
+  }
+  .segva-masonry[data-items] .masonry-item {
+    width: 100%;
+  }
+  .masonry-item {
+  	float: none;
+  	width: 100%;
+  	padding: 0 0 25px;
+  }
+  .masonry-item > div {
+  	text-align: left;
+  }
+  .masonry-item .project-more-info-wrap {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    min-height: auto;
+    text-align: center;
+  }
+  .masonry-item .blog-item {
+    padding-bottom: 0;
+  }
+  .segva-iframe iframe {
+    height: 300px;
+  }
+  .segva-fixed-navigation {
+  	padding: 50px 15px;
+  }
+  .segva-fixed-navigation .segva-logo {
+  	padding-bottom: 25px;
+  }
+  .segva-fixed-navigation .segva-navigation > ul > li {
+  	margin-bottom: 15px;
+  }
+  .segva-fixed-navigation .segva-navigation > ul > li:last-child {
+  	margin-bottom: 0;
+  }
+  .segva-fixed-navigation .segva-navigation > ul > li > a {
+  	font-size: 20px;
+  }
+  .segva-fixed-navigation .dropdown-nav li:last-child {
+  	padding-bottom: 0;
+  }
+  .segva-fixed-navigation .contact-info ul li {
+  	padding-bottom: 10px;
+  }
+  .nav-item {
+  	padding-bottom: 25px;
+  }
+  .nav-item-title {
+  	margin-bottom: 15px;
+  }
+  .close-btn {
+  	top: 25px;
+  	right: 25px;
+  }
+  .close-btn a {
+  	width: 40px;
+  	height: 40px;
+  }
+  .main-wrap-inner {
+  	margin-bottom: 0 !important;
+  }
+  .section-title-wrap {
+  	padding-bottom: 20px;
+  	width: auto;
+  }
+  .section-title-wrap h2 {
+  	font-size: 32px !important;
+  	line-height: 34px !important;
+  }
+  .segva-clients {
+  	padding-bottom: 0;
+    display: inline-block;
+    padding-top: 0;
+  }
+  .client-item,
+  .four-column .client-item {
+  	width: 50%;
+  }
+  .project-item {
+  	display: inline-block;
+  	vertical-align: top;
+    max-width: 320px;
+  }
+  .masonry-filters {
+  	padding-bottom: 15px;
+  }
+  .masonry-filters ul li {
+  	padding: 0 10px 10px;
+  }
+  .segva-blogs {
+  	padding: 50px 0 25px;
+    text-align: center;
+  }
+  .blog-item {
+    display: inline-block;
+    vertical-align: top;
+  	padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .blog-item .owl-carousel .owl-dots {
+    bottom: 25px;
+  }
+  .blogs-wrap .masonry-item .blog-item {
+    text-align: center;
+  }
+  .blogs-wrap .masonry-item:last-child {
+    padding-bottom: 0;
+  }
+  .blogs-style-two .blog-item.blog-default h4.blog-title {
+    line-height: 34px;
+    padding-bottom: 12px;
+  }
+  .blogs-style-two .blog-item.blog-default .blog-info {
+    padding-top: 25px;
+  }
+  .segva-page-title {
+    padding: 25px 0 22px;
+  }
+  .segva-mid-wrap,
+  .segva-mid-wrap[class*="mid-spacer-"] {
+    padding: 50px 0;
+  }
+  .left-sidebar .segva-primary,
+  .left-sidebar .segva-project-detail .segva-primary,
+  .left-sidebar.segva-mid-wrap.primary-spacer-two .segva-primary {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segva-primary,
+  .segva-project-detail .segva-primary,
+  .segva-mid-wrap.primary-spacer-two .segva-primary,
+  .segva-full-width .segva-primary {
+    padding-right: 0;
+  }
+  .segva-secondary .project-detail-wrap .project-short-detail {
+    padding-top: 20px;
+  }
+  .project-detail-wrap {
+    padding-top: 10px;
+  }
+  .project-name {
+    padding-bottom: 15px;
+  }
+  .project-short-detail {
+    padding-top: 0;
+  }
+  .project-enquiry {
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .enquiry-title {
+    padding-bottom: 15px;
+  }
+  .segva-controls-links,
+  .segva-project-detail[class*="project-"] .segva-controls-links {
+    padding-top: 25px;
+    margin-top: 25px;
+  }
+  .portfolio-single-nav .segva-controls-links {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .contact-section .segva-contact-item {
+    padding: 15px 25px;
+  }
+  .segva-pagination {
+    padding-top: 20px;
+  }
+  .segva-widget,
+  .segva-widget.widget-categories {
+    padding-bottom: 38px;
+  }
+  .widget-categories .widget-title,
+  .widget-social .widget-title {
+    padding-bottom: 15px;
+  }
+  .widget-categories ul li:last-child {
+    padding-bottom: 0;
+  }
+  .sticky-footer .segva-footer {
+  	position: static;
+  }
+  .segva-footer {
+  	text-align: center;
+  }
+  .segva-footer [class*="col-"] {
+  	padding-bottom: 15px;
+  }
+  .segva-footer .segva-copyright [class*="col-"] {
+    padding-bottom: 0;
+  }
+  .footer-wrap {
+  	padding: 45px 0 10px;
+  }
+  .footer-wrap .footer-widget-area {
+    padding-bottom: 10px;
+  }
+  .footer-wrap .contact-info {
+  	padding: 0 0 10px;
+  }
+  .footer-wrap .segva-copyright {
+    float: none;
+  }
+  .segva-preloader canvas {
+  	width: 200px;
+  }
+  .segva-footer .segva-widget {
+    padding-bottom: 15px;
+  }
+  .loader-percentage {
+  	font-size: 30px;
+  	line-height: 36px;
+  }
+  .segva-footer .segva-item .segva-widget:first-child {
+    min-height: auto;
+  }
+  .blogs-style-two .blog-item.blog-default {
+    margin-bottom: 0;
+  }
+  /* Newsletter */
+  .mc4wp-form-fields input[type="submit"] {
+    position: relative;
+    width: 100%;
+  }
+  /* Home V3 */
+  .projects-style-three .masonry-item-wrap {
+    text-align: center;
+  }
+  .projects-style-three .project-info {
+    text-align: center;
+  }
+  /* Home V4 */
+  .slider-style-three .slider-featured-image {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .slider-style-three .banner-caption {
+    width: 100%;
+  }
+  .slider-style-three .segva-slider-bottom-wrap .segva-slider-btm-cnt .segva-social {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .slider-style-three .segva-slider-bottom-wrap {
+    padding: 25px 15px;
+    width: 100%;
+  }
+  .slider-style-three .segva-slider-bottom-wrap .segva-slider-btm-cnt {
+    text-align: center;
+  }
+  .segva-swiper-nav {
+    right: 0;
+    bottom: 120px;
+    width: 100%;
+    height: 50px;
+  }
+  .slider-style-three .segva-swiper .swiper-button-next {
+    float: right;
+    right: 45px;
+    left: auto;
+  }
+  .slider-style-three .swiper-container:hover .swiper-button-next {
+    right: 45px;
+  }
+	/* Segva Home Classic Page CSS */
+	.segva-slider-caption {
+		text-align: center;
+	}
+	.segva-slider-caption h2 {
+		font-size: 36px;
+		line-height: 46px;
+    text-shadow: none !important;
+	}
+  .segva-slider-caption h2.slider-caption-title-two:after {
+    background: none;
+  }
+  .segva-header-right {
+    display: none;
+  }
+	.caption-wrap .segva-border-link {
+		padding-top: 0;
+	}
+	.slider-caption-title {
+		padding-bottom: 10px;
+	}
+	.segva-experience {
+		padding: 50px 0;
+	}
+	.segva-experience .section-title-wrap,
+  .segva-projects .section-title-wrap {
+		padding-bottom: 10px;
+	}
+  .projects-style-two .masonry-filters {
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+	.segva-projects .section-title-wrap .masonry-filters ul li {
+		padding: 0 20px 10px 0;
+	}
+	.segva-projects .segva-border-link {
+		padding-top: 8px;
+	}
+	/* Segva Home Cascade Style Page CSS */
+	.segva-big-title-wrap {
+		padding-bottom: 20px;
+	}
+	.segva-big-title-wrap .big-title {
+		font-size: 36px;
+		line-height: 48px;
+	}
+	.projects-style-two .project-info {
+		padding: 25px 0 0;
+	}
+	/* Segva Home Parallax Page CSS */
+  .segva-banner,
+  .segva-banner[class*="banner-style-"] {
+    height: 400px !important;
+  }
+	.banner-wrap {
+		padding: 25px;
+		overflow: auto;
+	}
+	.banner-wrap h2 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.banner-title {
+		padding-bottom: 10px;
+	}
+	.banner-info {
+		padding: 0;
+	}
+  /* Segva Home Pinterest Gallery Page CSS */
+  .sidebar-nav-wrap {
+    padding: 30px 35px 25px;
+  }
+  .sidebar-nav-wrap .segva-navigation {
+    padding: 15px 0;
+  }
+  .sidebar-nav-wrap .segva-navigation > ul > li > a {
+    padding: 8px 0;
+  }
+  .sidebar-nav-wrap .segva-navigation > ul > li.has-dropdown > .dropdown-nav {
+    padding-bottom: 5px;
+  }
+  .sidebar-nav-wrap .dropdown-nav {
+    padding: 5px 0 0 5px;
+  }
+  .sidebar-nav-wrap .segva-copyright {
+    padding-top: 5px;
+  }
+  .segva-full-gallery {
+    padding: 25px;
+  }
+  .gallery-style-two .project-info-wrap {
+    bottom: 20px;
+    left: 30px;
+    right: 30px;
+  }
+  .gallery-style-two .project-link {
+    top: 25px;
+    right: 25px;
+  }
+  /* Segva About Us Page CSS */
+  .banner-style-two .banner-wrap h1 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 8px;
+    padding-bottom: 0;
+  }
+  .hav-icon h1.banner-title.banner-title-two:after {
+    display: none;
+  }
+  .segva-experience.experience-style-two {
+    padding: 50px 0 20px;
+  }
+  .experience-style-two .section-title-wrap h2,
+  .segva-mates .section-title-wrap h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .clients-style-two .clients-wrap {
+    padding: 25px 0;
+  }
+  .segva-about-us,
+  .segva-mates {
+    padding: 50px 0 20px;
+  }
+  .about-item {
+    padding-bottom: 25px;
+  }
+  .about-info p,
+  .about-title {
+    padding-bottom: 6px;
+  }
+  .segva-mates .section-title-wrap {
+    padding-bottom: 20px;
+  }
+  .mate-item {
+    width: 100%;
+    text-align: center;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  /* Segva About Me Page CSS */
+  .segva-about-me .segva-background {
+    height: 350px;
+  }
+  .my-info h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .my-info .segva-border-link {
+    padding-top: 0;
+  }
+  .my-info .segva-social.square {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid #dddddd;
+  }
+  .my-info .segva-social.square a {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 15px 25px 14px;
+  }
+  .my-info .segva-social.square a:last-child {
+    border-right: 1px solid #dddddd;
+  }
+  .my-info-wrap {
+    padding: 50px 30px;
+  }
+  .my-name {
+    padding-bottom: 15px;
+  }
+  .segva-about-me  .my-info-wrap {
+    padding-bottom: 60px !important;
+  }
+  /* Segva Services Page CSS */
+  .testi-style-three .owl-carousel:before {
+    font-size: 250px !important;
+  }
+  .services-wrap-item {
+    padding: 50px 25px 25px;
+  }
+  .services-left-wrap .services-info-wrap {
+    padding: 0;
+    margin: 30px 0px 50px;
+    display: inline-block;
+  }
+  .services-left-wrap h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .services-left-wrap h2 br {
+    display: none;
+  }
+  .services-wrap-title {
+    padding-bottom: 15px;
+  }
+  .services-info-wrap {
+    width: auto;
+    padding: 0;
+  }
+  .services-info-wrap .segva-border-link {
+    padding-top: 0;
+  }
+  .service-item {
+    padding: 15px 0 25px;
+  }
+  .segva-services-wrap .service-item {
+    padding: 25px;
+  }
+  .service-info {
+    padding-left: 20px;
+  }
+  .service-title {
+    padding-bottom: 10px;
+  }
+  .segva-counters {
+    padding-bottom: 15px;
+  }
+  .counter-item {
+    padding: 0 0 25px;
+  }
+  .counter-item h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .segva-process,
+  .segva-pricing {
+    padding: 50px 0 25px;
+  }
+  .process-item {
+    margin-bottom: 25px;
+  }
+  .pricing-item {
+    padding: 21px 25px 26px;
+    margin-bottom: 25px;
+  }
+  .pricing-title {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  /* Segva 404 Error Page CSS */
+  .segva-full-height {
+    height: 500px;
+  }
+  .error-wrap {
+    width: auto;
+  }
+  .error-wrap p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .error-wrap h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .error-wrap h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .error-title {
+    padding-bottom: 10px;
+  }
+  /* Segva Home Pinterest Gallery Page CSS */
+  .segva-project-detail.project-full-wrap {
+    padding: 0 25px;
+  }
+  .project-full-wrap .container {
+    padding: 0;
+  }
+  .project-full-wrap .segva-secondary {
+    padding-top: 20px;
+  }
+  .project-full-wrap .project-detail-wrap {
+    max-width: 100%;
+    padding: 0;
+  }
+  /* Segva Pinterest Gallery Bottom Page CSS */
+  .project-gallery-bottom .project-detail-wrap {
+    padding-bottom: 15px;
+  }
+  /* Segva Full Width Slider Page CSS */
+  .segva-project-slider .owl-carousel .owl-dots {
+    bottom: 25px;
+  }
+  /* Segva Blog Standard Page CSS */
+  .blogs-style-two .blog-item {
+    display: block;
+    padding-bottom: 25px;
+  }
+  .blog-item.blog-default {
+    display: block;
+    padding-bottom: 25px;
+    margin-bottom: 0;
+  }
+  .blogs-style-two .blog-info {
+    padding-top: 21px;
+  }
+  .blogs-style-two .blog-title {
+    padding-bottom: 8px;
+  }
+  /* Segva Blog Single Page CSS */
+  .segva-blog-detail {
+    padding-bottom: 25px;
+  }
+  .segva-blog-detail .segva-controls-links {
+    padding-top: 25px;
+    margin-top: 0;
+    padding-bottom: 26px;
+  }
+  .segva-blog-detail .control-link-text {
+    display: none;
+  }
+  .blog-image {
+    padding-bottom: 20px;
+  }
+  .segva-blog-meta {
+    padding: 5px 0 15px;
+  }
+  .segva-blog-share {
+    float: none;
+    width: auto;
+    padding-top: 0;
+  }
+  .segva-blog-tags {
+    float: none;
+    width: auto;
+    padding-top: 15px;
+    text-align: left;
+  }
+  .segva-author-info {
+    padding: 25px 25px 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .author-avatar {
+    float: none;
+  }
+  .author-content {
+    clear: both;
+    padding: 15px 0 0;
+  }
+  .segva-related-posts {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .related-post-title {
+    padding-bottom: 18px;
+  }
+  .comments-section {
+    padding: 0;
+  }
+  .segva-comments-area .comments-title {
+    padding-bottom: 50px;
+    padding-top: 60px;
+  }
+  .segva-comments-area .segva-comments-meta {
+    padding-bottom: 5px;
+  }
+  .segva-comments-area .comment-wrapper {
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+  }
+  .segva-comment-form.comment-respond {
+    padding-top: 20px;
+  }
+  .segva-blog-detail .comment-reply-title {
+    padding-bottom: 20px;
+  }
+  /* Segva Content Cross Check Page CSS */
+  .entry-content dd {
+    margin-bottom: 10px;
+  }
+  .wp-caption {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  .entry-content .comment-list article,
+  .entry-content .comment-list .pingback,
+  .entry-content .comment-list .trackback {
+    padding: 20px 0;
+  }
+  .entry-content .comment-content ul,
+  .entry-content .comment-content ol {
+    margin: 0 0 10px 0;
+  }
+  .entry-content .comment-metadata {
+    margin-bottom: 5px;
+  }
+  .entry-content .comment-list .comment-reply-link {
+    margin-top: 0;
+  }
+  .entry-content .comment-list .children {
+    padding-left: 0;
+  }
+  .entry-content .comment-notes,
+  .entry-content .comment-awaiting-moderation,
+  .entry-content .logged-in-as,
+  .entry-content .form-allowed-tags {
+    padding-bottom: 10px;
+  }
+  .segva-unit-fix .entry-content .comment-form {
+    padding-top: 0;
+  }
+  .segva-unit-fix .entry-content .comment-list article,
+  .segva-unit-fix .entry-content .comment-list .pingback,
+  .segva-unit-fix .entry-content .comment-list .trackback {
+    padding: 15px 0 20px;
+  }
+  /* Segva Contact Us Page CSS */
+  .segva-map {
+    height: 250px;
+  }
+  .segva-contact-wrap .row,
+  .segva-experience .row {
+    margin: 0;
+  }
+  .segva-contact-wrap [class*="col-"],
+  .segva-experience [class*="col-"] {
+    padding: 0;
+  }
+  .segva-contact-wrap,
+  .get-in-touch {
+    padding-top: 25px;
+  }
+  .segva-contact-wrap h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .segva-contact-wrap .contact-info ul li {
+    padding-bottom: 8px;
+  }
+  .segva-contact-wrap .contact-info {
+    padding-top: 5px;
+  }
+  .contact-wrap-title {
+    padding-bottom: 10px;
+  }
+  .segva-contact-form {
+    padding-bottom: 40px;
+  }
+  .segva-password-protected {
+    width: auto;
+    padding: 0;
+    background: none;
+  }
+  .glzv-password-protected .glzv-icon img {
+    width: 70px;
+  }
+  .page-float-bar {
+    padding-top: 70px;
+    padding-bottom: 50px;
+  }
+  .segva-blog-detail .segva-blog-post {
+    text-align: left;
+  }
+  .segva-masonry .segva-blog-post .blog-info {
+    text-align: center;
+  }
+  .about-item {
+    margin: 0 auto;
+    max-width: 370px;
+    display: block;
+  }
+  .counter-item {
+    float: none;
+    margin: 0 auto;
+  }
+  .blog-item.blog-default {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segva-primary .blog-item.blog-default .segva-iframe iframe {
+    height: 285px;
+  }
+  .countdown-wrap {
+    max-width: 250px;
+    margin: 0 auto;
+   text-align: center;
+  }
+  .countdown-item,
+  .countdown_section {
+    min-width: 250px;
+    margin-right: 25px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+  }
+  .countdown-item:after,
+  .countdown_section:after {
+    right: -15px;
+  }
+  .countdown-value,
+  .countdown_amount {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  .missing-days {
+    max-width: none;
+    padding-top: 25px;
+  }
+  .segva-blog-post {
+    text-align: center;
+  }
+  .segva-copyright.bottom,
+  .segva-copyright,
+  .segva-copyright .text-right {
+    text-align: center !important;
+  }
+  .segva-copyright p,
+  .segva-copyright.bottom p {
+    padding-bottom: 8px;
+  }
+  .segva-process {
+    padding-top: 15px;
+  }
+  .segva-pagination,
+  .wp-pagenavi {
+    padding-top: 5px;
+  }
+   .segva-secondary {
+    padding-top: 15%;
+  }
+  .intro-item .intro-right h3.intro-title {
+    padding-top: 15px;
+    font-size: 22px;
+  }
+  .segva-projects .section-title-wrap .masonry-filters {
+    padding: 5px 0 19px;
+  }
+  .segva-project-detail .project-detail-wrap .col-md-6,
+  .segva-project-detail .project-detail-wrap .col-lg-3 {
+    padding-left: 0;
+  }
+  .project-detail-wrap .segva-secondary {
+    padding-top: 7%;
+  }
+  .project-enquiry.segva-form {
+    padding-top: 35px;
+  }
+  .segva-project-detail.pinterest-galley .segva-masonry {
+    margin-top: 40px;
+  }
+  .segva-secondary  h4.widget-title {
+    padding-top: 15px;
+  }
+  .segva-secondary .banner-spot {
+    margin-top: 30px;
+  }
+  .footer-wrap .segva-copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .segva-secondary {
+    padding-top: 70px;
+  }
+  .blog-item .segva-image,
+  .segva-item.blog-item {
+    text-align: center;
+  }
+  .blog-style-four .blog-item.blog-default .segva-image {
+    width: 100%;
+  }
+  .blog-style-four .blog-item.blog-default .blog-info {
+    width: 85%;
+    padding: 30px 0;
+  }
+  .blog-style-four .blog-date {
+    width: 15%;
+  }
+  .blog-style-four .blog-item.blog-default .segva-image img {
+    float: left;
+  }
+  .segva-slider-caption p {
+    line-height: 30px;
+    padding-bottom: 10px;
+  }
+  .segva-item.blog-item {
+    margin-bottom: 30px;
+  }
+  .award-item .award-year {
+    padding-bottom: 10px;
+  }
+  .segva-video h2 {
+    font-size: 26px;
+  }
+  .video-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .segva-contact-form.segva-form p {
+    padding-bottom: 5px;
+  }
+  .control-link.previous .control-link-blog-title {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+  .control-link.next .control-link-blog-title {
+    padding-right: 0;
+    padding-top: 8px;
+  }
+  .segva-related-posts .segva-item.blog-item {
+    margin-bottom: 5px;
+  }
+  .segva-intro-list {
+    padding:20px;
+  }
+  .comment-form-cookies-consent label{
+    display: inline;
+  }
+  .team-singl-wrap .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .segva-video.pop-video-style-two {
+    height: 400px!important;
+  }
+  .segva-testimonials.testi-style-two .owl-drag .owl-prev:before, 
+  .segva-testimonials.testi-style-two .owl-drag .owl-next:before {
+    left: 30%;
+  }
+  .segva-testimonials.testi-style-two .owl-drag .owl-next:before {
+    left: auto;
+    right: 30%;
+  }
+  .project-short-detail dl {
+    margin-bottom: 15px;
+  }
+
+  /* Shop Page */
+  .woocommerce ul.products li.product.columns-4, 
+  .woocommerce-page ul.products.columns-4 li.product, 
+  .woocommerce ul.products li.product.columns-3, 
+  .woocommerce-page ul.products.columns-3 li.product,
+  .woocommerce ul.products.columns-3 li.product, 
+  .woocommerce-page ul.products.columns-3 li.product {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+    float: none;
+  }
+  .woocommerce ul.products li.product a img {
+    width: auto;
+    margin: 0 auto;
+  }
+  .woocommerce ul.products[class*=columns-] li.product:nth-child(2n), 
+  .woocommerce-page ul.products[class*=columns-] li.product:nth-child(2n) {
+    float: none;
+    clear: none!important;
+  }
+  .woocommerce .woocommerce-ordering {
+    margin-bottom: 25px;
+  }
+  .woocommerce ul.products li.product.columns-4:last-child, 
+  .woocommerce-page ul.products.columns-4 li.product:last-child, 
+  .woocommerce ul.products li.product.columns-3:last-child, 
+  .woocommerce-page ul.products.columns-3 li.product:last-child {
+    padding-bottom: 0;
+  }
+  /* Single Product */
+  .single-product .segva-mid-wrap.mid-spacer-two {
+    padding: 0 0 60px;
+  }
+  .segva-single-product-wrap {
+    padding: 40px 40px 20px;
+  }
+  /* Cart Page */
+  .woocommerce table.shop_table td {
+    padding: 15px 12px;
+  }
+  .woocommerce-page .segva-primary {
+    width: 100%;
+  }
+  .segva-full-background form {
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (max-width:782px) {
+  .admin-bar .is-sticky .segva-header {
+    top: 46px !important;
+  }
+  .admin-bar .transparent-header header.segva-header {
+    top: 46px;
+  }
+  .admin-bar .is-sticky .segva-header.sticky-header {
+    top: 46px !important;
+  }
+}
+
+@media screen and (max-width:684px) {
+  table th,
+  tr th {
+    font-size: 13px;
+    padding: 10px 10px 5px;
+  }
+  table td {
+    font-size: 14px;
+    padding: 10px 10px 5px;
+  }
+  h2.section-title.large-content {
+    font-size: 100px !important;
+  }
+
+  .error-wrap p {
+    line-height: 30px;
+  }
+  .error-wrap h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width:600px) {
+  .admin-bar .is-sticky .segva-header.sticky-header {
+    top: 0 !important;
+  }
+  .segva-copyright.bottom,
+  .segva-copyright,
+  .segva-copyright .text-right {
+    text-align: center !important;
+  }
+  .segva-copyright p,
+  .segva-copyright.bottom p {
+    padding-bottom: 8px;
+  }
+  .imagebox-item {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width:599px) {
+	/* Segva Normal CSS */
+  p {
+    margin-bottom: 0;
+  }
+  blockquote p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+	.search-wrap {
+		margin: 0 30px;
+	}
+	.search-wrap input[type="text"] {
+		font-size: 24px;
+	}
+	.section-title-wrap h2 {
+  	font-size: 30px;
+  	line-height: 38px;
+  }
+  .project-detail-wrap h3 {
+    font-size: 24px;
+  }
+  .project-name {
+    padding: 0 0 10px;
+  }
+  .project-likes {
+    position: static;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .segva-controls-links .control-link-title {
+    vertical-align: middle;
+  }
+  .control-link-text {
+    display: none;
+  }
+  .slider-category span.segva-separator:after {
+    content: ",";
+  }
+  .slider-category span.segva-separator {
+    background: none;
+    width: 1px;
+    margin-left: 0;
+  }
+  .section-title-wrap.hav-sep .sec-title:after {
+    margin-top: 5px;
+  }
+  .project-info-wrap span.segva-separator {
+    display: none;
+  }
+  .projects-style-two .project-title {
+    width: 100%;
+    padding-bottom: 5px;
+  }
+  .segva-slider-caption p, 
+  .segva-blog-detail p, 
+  .segva-content-side p, 
+  .project-detail-wrap p, 
+  .segva-team-single-section p, 
+  .textwidget p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+  }
+  .blogs-style-two .blog-item.blog-default h4.blog-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .blog-globe-content {
+    font-size: 19px;
+    line-height: 28px;
+  }
+  .blog-meta span {
+    display: inline-block;
+    width: 100%;
+  }
+  .blog-meta span + span:before {
+    display: none;
+  }
+  .blog-meta span + span {
+    padding-top: 8px;
+  }
+  .segva-author-info {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .segva-blog-detail .segva-controls-links {
+    margin-bottom: 15px;
+  }
+  .segva-services-wrap .service-item span.segva-separator {
+    margin-bottom: 10px;
+  }
+  .slider-style-three .segva-slider-caption h2 {
+    font-size: 50px !important;
+    line-height: 60px !important;
+  }
+  .segva-swiper.swiper-container-horizontal .swiper-pagination-bullets, 
+  .segva-swiper .swiper-pagination-custom, 
+  .swiper-pagination-fraction {
+    left: 0;
+  }
+	/* Segva Home Classic Page CSS */
+	.segva-slider-caption h2 {
+		font-size: 30px;
+		line-height: 36px;
+	}
+	/* Segva Home Carousel Page CSS */
+	.horizontalslides .segva-slider-caption h2 {
+		font-size: 20px;
+	}
+	.horizontalslides .slider-caption-title {
+		padding-bottom: 0;
+	}
+	.horizontalslides .caption-wrap {
+		padding: 19px 25px 25px;
+	}
+	/* Segva Home Cascade Style Page CSS */
+	.segva-big-title-wrap .big-title {
+		font-size: 30px;
+		line-height: 40px;
+	}
+  /* Segva About Us Page CSS */
+  .banner-style-two .banner-wrap h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .experience-style-two .section-title-wrap h2,
+  .segva-mates .section-title-wrap h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* Segva About Me Page CSS */
+  .my-info h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* Segva Services Page CSS */
+  .services-left-wrap h2 {
+    font-size: 26px;
+  }
+  .services-wrap-title {
+    padding-bottom: 10px;
+  }
+  .counter-item {
+    width: 100%;
+  }
+  /* Segva 404 Error Page CSS */
+  .error-wrap h1 {
+    font-size: 50px;
+    line-height: 72px;
+  }
+  .error-wrap h2 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  /* Segva Blog Single Page CSS */
+  .segva-comments-area .comment-image {
+    float: none;
+  }
+  .segva-comments-area .comment-main-area {
+    clear: both;
+    padding: 15px 0 0;
+  }
+  .segva-comments-area .comments li .children li {
+    padding-left: 1px;
+  }
+  /* Segva Contact Us Page CSS */
+  .segva-contact-wrap h1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .dl-horizontal dd a,
+  .dl-horizontal dd {
+    font-size: 22px;
+  }
+  .portfolio-single-nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .pricing-item {
+    margin-bottom: 15px;
+  }
+  .faq-wrap.acc-style-two .btn-link {
+    font-size: 23px;
+    line-height: 32px;
+  }
+  .faq-wrap.acc-style-two button.btn.btn-link {
+    padding: 15px 25px 15px 30px;
+  }
+  /* Woocommerce Checkout */
+  .woocommerce-form-coupon-toggle .woocommerce-info {
+    padding: 25px 20px !important;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot th, 
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot td,
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody td,
+  .woocommerce .woocommerce-checkout-review-order table.shop_table thead th {
+    padding: 15px;
+    min-width: auto;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:first-child > td {
+    padding-top: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tbody > tr:last-child > td {
+    padding-bottom: 15px;
+  }
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping th, 
+  .woocommerce .woocommerce-checkout-review-order table.shop_table tfoot .shipping td {
+    padding: 15px;
+  }
+  .woocommerce #add_payment_method #payment, 
+  .woocommerce .woocommerce-cart #payment, 
+  .woocommerce .woocommerce-checkout #payment {
+    padding: 15px 18px;
+  }
+  .woocommerce-checkout h3 {
+    font-size: 28px;
+  }
+  /* Single Product */
+  .segva-single-product-wrap {
+    padding: 25px 25px 10px;
+  }
+  .woocommerce div.product div.images .flex-control-thumbs li {
+    width: 25%;
+    margin-top: 15px;
+  }
+  .woocommerce div.product .product_title, 
+  .woocommerce div.product p.price, 
+  .woocommerce div.product span.price {
+    font-size: 28px;
+  }
+  .woocommerce div.product p.price, 
+  .woocommerce div.product span.price {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .woocommerce div.product form.cart {
+    margin-bottom: 15px;
+  }
+  .woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width:576px) {
+  .segva-blog-post {
+    text-align: center;
+  }
+  .segva-primary .blog-item.blog-default .segva-iframe iframe {
+    height: 268px;
+  }
+
+}
+
+@media screen and (max-width:479px) {
+	/* Segva Normal CSS */
+  blockquote p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .breadcrumb {
+    font-size: 16px;
+  }
+  .dl-horizontal dt {
+    float: none;
+    width: auto;
+    white-space: normal;
+    overflow: visible;
+  }
+  .dl-horizontal dt:after {
+    display: none;
+  }
+  .dl-horizontal dd {
+    clear: both;
+    padding: 5px 0 0;
+  }
+	.client-item,
+  .four-column .client-item {
+		width: 100%;
+	}
+  .project-detail-wrap h3 {
+    font-size: 22px;
+  }
+  .blog-info h4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .segva-iframe iframe {
+    height: 200px;
+  }
+	/* Segva Home Classic Page CSS */
+	.segva-slider-caption h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+  /* Segva Services Page CSS */
+  .segva-services {
+    text-align: center;
+  }
+  .services-left-wrap h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .service-item .segva-icon {
+    float: none;
+    padding-top: 0;
+  }
+  .service-info {
+    clear: both;
+    padding: 10px 0 0;
+  }
+  .service-title {
+    padding-bottom: 5px;
+  }
+  .counter-item {
+    float: none;
+    width: auto;
+    padding-bottom: 15px;
+  }
+  /* Segva Blog Single Page CSS */
+  .segva-blog-detail .segva-controls-links .control-link img {
+    display: none;
+  }
+  h3.project-name .liking-segovia {
+    display: inline-block;
+    width: 100%;
+  }
+  .zilla-likes {
+    top: 36px;
+    left: 0;
+    right: auto;
+  }
+  .segva-primary .blog-item.blog-default .segva-iframe iframe {
+    height: 196px;
+  }
+  .info-item {
+    padding-right: 15px;
+  }
+  .info-info {
+    padding-left: 10px;
+  }
+  .countdown-wrap {
+    max-width: 300px;
+    background-color: #fff;
+  }
+  .countdown-item,
+  .countdown_section {
+    padding: 6px;
+    background: none;
+    min-width: 20px;
+    margin-right: 20px;
+    width: 100%;
+  }
+  .countdown-item:after,
+  .countdown_section:after {
+    content: none;
+  }
+  .countdown-value,
+  .countdown_amount {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  h2.section-title.large-content {
+    font-size: 70px !important;
+  }
+  .segva-project-detail .zilla-likes {
+    position: relative;
+  }
+  .woocommerce div.product form.cart div.quantity {
+    margin: 0 4px 10px 0;
+  }
+  .segva-content-side p .size-full.alignright {
+    padding-bottom: 10px;
+  }
+  .slider-style-three .swiper-container.swiper-slides.segva-swiper {
+    height: 100vh;
+  }
+  .slider-style-three .swiper-pagination-wrap {
+    left: 30px;
+  }
+
+}
+
+@media screen and (max-width:390px) {
+   table th,
+  tr th {
+    font-size: 11px;
+    padding: 10px 10px 5px;
+  }
+  table td {
+    font-size: 12px;
+    padding: 10px 10px 5px;
+  }
+  table td {
+    padding: 8px 5px 5px;
+  }
+  .segva-primary .blog-item.blog-default .segva-iframe iframe {
+    height: 176px;
+  }
+  .info-main-title {
+    float: none;
+  }
+  .info-info {
+    padding-left: 0;
+  }
+  .segva-footer .segva-widget .segva-social.rounded a {
+    margin-top: 10px;
+  }
+  br {
+    display: none;
+  }
+  .comment-area p br{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:359px) {
+  /* Segva Normal CSS */
+  .segva-fixed-navigation .contact-info {
+    font-size: 16px;
+  }
+	/* Segva Home Cascade Style Page CSS */
+	.segva-big-title-wrap .big-title {
+		font-size: 26px;
+		line-height: 36px;
+	}
+  /* Segva Home Pinterest Gallery Page CSS */
+  .segva-full-wrap .toggle-link.active {
+    left: 0;
+  }
+  /* Segva About Us Page CSS */
+  .banner-style-two .banner-wrap h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  /* Segva About Me Page CSS */
+  .my-info .segva-social.square a {
+    float: none;
+    width: auto;
+    display: block;
+  }
+  .comment-main-area .segva-comments-meta h4 {
+    font-size: 16px;
+  }
+  .segva-primary .blog-item.blog-default .segva-iframe iframe {
+    height: 165px;
+  }
+  .segva-slider-caption p {
+    line-height: 26px;
+  }
+
+}

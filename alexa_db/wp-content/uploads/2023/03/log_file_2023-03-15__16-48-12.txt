@@ -1,0 +1,53 @@
+
+---Downloaded files---
+The import files for: Segovia were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://localhost/alexa_db
+Data file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-content-import-file_2023-03-15__16-48-12.xml
+Widget file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-widgets-import-file_2023-03-15__16-48-12.json
+Customizer file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-customizer-import-file_2023-03-15__16-48-12.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Widget Area : 
+
+Categories - No Title - Widget already exists
+Segovia: Recent Posts - Recent Posts - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+Footer Widget 1 : 
+
+Segovia: Text Widget - No Title - Widget already exists
+Segovia: Text Widget - No Title - Widget already exists
+
+Footer Widget 2 : 
+
+Segovia: Text Widget - Quick Links - Widget already exists
+Segovia: Text Widget - Phone - Widget already exists
+
+Footer Widget 3 : 
+
+Segovia: Text Widget - Head Office - Widget already exists
+Segovia: Text Widget - Mail Us - Widget already exists
+
+footer-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Segovia: Text Widget - Social Media - Widget already exists
+Segovia: Text Widget - Website - Widget already exists
+
+Shop Widget : 
+
+Product Search - No Title - Widget already exists
+Filter Products by Price - Filter by price - Widget already exists
+Product Categories - Categories - Widget already exists
+Product Tag Cloud - Product tags - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,61 @@
+
+---Downloaded files---
+The import files for: Segovia were successfully downloaded!
+Initial max execution time = 60
+Files info:
+Site URL = http://localhost/alexa_db
+Data file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-content-import-file_2023-03-15__13-05-40.xml
+Widget file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-widgets-import-file_2023-03-15__13-05-40.json
+Customizer file = C:\MAMP\htdocs\alexa_db/wp-content/uploads/2023/03/demo-customizer-import-file_2023-03-15__13-05-40.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Widget Area : 
+
+Categories - No Title - Imported
+Segovia: Recent Posts - Recent Posts - Imported
+Tag Cloud - Tags - Imported
+
+Footer Widget 1 : 
+
+Segovia: Text Widget - No Title - Imported
+Segovia: Text Widget - No Title - Imported
+
+Footer Widget 2 : 
+
+Segovia: Text Widget - Quick Links - Imported
+Segovia: Text Widget - Phone - Imported
+
+Footer Widget 3 : 
+
+Segovia: Text Widget - Head Office - Imported
+Segovia: Text Widget - Mail Us - Imported
+
+footer-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Segovia: Text Widget - Social Media - Imported to Inactive
+Segovia: Text Widget - Website - Imported to Inactive
+
+Shop Widget : 
+
+Product Search - No Title - Imported
+Filter Products by Price - Filter by price - Imported
+Product Categories - Categories - Imported
+Product Tag Cloud - Product tags - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

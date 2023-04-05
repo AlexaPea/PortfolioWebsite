@@ -1,0 +1,225 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Codestar Framework\n"
+"POT-Creation-Date: 2019-03-05 10:10+0530\n"
+"PO-Revision-Date: 2019-03-05 10:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: cs-framework.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/framework.class.php:177
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: classes/framework.class.php:182
+msgid "Default options restored."
+msgstr ""
+
+#: classes/framework.class.php:201
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: classes/framework.class.php:367
+msgid "Settings saved."
+msgstr ""
+
+#: classes/framework.class.php:369
+msgid "Save"
+msgstr ""
+
+#: classes/framework.class.php:369
+msgid "Saving..."
+msgstr ""
+
+#: classes/framework.class.php:370
+msgid "Restore"
+msgstr ""
+
+#: classes/framework.class.php:373 fields/backup/backup.php:32
+msgid "Reset All Options"
+msgstr ""
+
+#: classes/framework.class.php:377
+msgid "show all options"
+msgstr ""
+
+#: classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: classes/options.class.php:131 classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: classes/shortcode.class.php:82 classes/shortcode.class.php:90
+#: fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: classes/shortcode.class.php:92
+msgid "Select a shortcode"
+msgstr ""
+
+#: classes/shortcode.class.php:108
+msgid "Insert Shortcode"
+msgstr ""
+
+#: fields/background/background.php:34 fields/background/background.php:35
+#: fields/upload/upload.php:23 fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: fields/background/background.php:36 fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: fields/backup/backup.php:30
+msgid "Export and Download Backup"
+msgstr ""
+
+#: fields/backup/backup.php:31
+msgid "or"
+msgstr ""
+
+#: fields/backup/backup.php:33
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: fields/group/group.php:22
+msgid "Adding"
+msgstr ""
+
+#: fields/group/group.php:45 fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: fields/icon/icon.php:25 functions/actions.php:84
+msgid "Add Icon"
+msgstr ""
+
+#: fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: fields/typography/typography.php:107 functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: functions/actions.php:85
+msgid "Search a Icon..."
+msgstr ""
+
+#: functions/actions.php:86
+msgid "Loading..."
+msgstr ""
+
+#: functions/helpers.php:49
+msgid "This field class is not available!"
+msgstr ""
+
+#: functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Codestar Framework"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://codestarframework.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A Lightweight and easy-to-use WordPress Options Framework"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Codestar"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://codestarlive.com/"
+msgstr ""

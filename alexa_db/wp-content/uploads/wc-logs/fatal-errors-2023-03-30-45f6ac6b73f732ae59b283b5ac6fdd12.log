@@ -1,0 +1,4 @@
+2023-03-30T07:31:39+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 175623840 bytes) in C:\MAMP\htdocs\alexa_db\wp-includes\class-wp-image-editor-gd.php on line 111
+
+2023-03-30T07:31:40+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 175623840 bytes) in C:\MAMP\htdocs\alexa_db\wp-includes\class-wp-image-editor-gd.php on line 111
+
